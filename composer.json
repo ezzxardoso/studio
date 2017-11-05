@@ -1,6 +1,6 @@
 
 {
-    "name": "ezequiel/studio",
+    "name": "ezequiel/studios",
     "description": "library for class php autoload PSR-4",
     "type": "library",
     "require": {
