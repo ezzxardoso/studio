@@ -1,13 +1,25 @@
+
 {
     "name": "ezequiel/studio",
-    "description": "Autoloading de bibliotecas com Composer",
+    "description": "library for class php autoload PSR-4",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "php": "^7.0"
+    },
+    "license": "mit",
     "authors": [
         {
-            "name": "IgorDeveloper",
-            "homepage": "http://www.igordeveloper.com"
+            "name": "ezequiel cardoso",
+            "email": "ezzcardoso@icloud.com",
+            "homepage": "zimeonline.com.br"
+
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
-       "psr-0": {"Project": "src/"}
+       "psr-4": {"Project//": "src/Project"}
     }
 }
