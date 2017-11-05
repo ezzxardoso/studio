@@ -20,6 +20,6 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-       "psr-4": {"lib\\": "src/Project"}
+       "psr-4": {"Project\\": "src/Project"}
     }
 }
