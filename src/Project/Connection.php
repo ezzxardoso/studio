@@ -1,8 +1,5 @@
 <?php
-/**
- *
- */
-
+namespace Project;
 class Connection
 {
   public static function open(){
