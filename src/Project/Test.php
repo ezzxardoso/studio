@@ -2,7 +2,7 @@
 
 namespace Project;
 
-class Car
+class Test
 {
     protected $name;
     
