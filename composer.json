@@ -1,0 +1,13 @@
+{
+    "name": "ezequiel/studio",
+    "description": "Autoloading de bibliotecas com Composer",
+    "authors": [
+        {
+            "name": "IgorDeveloper",
+            "homepage": "http://www.igordeveloper.com"
+        }
+    ],
+    "autoload": {
+       "psr-0": {"Project": "src/"}
+    }
+}
